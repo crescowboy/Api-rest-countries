@@ -1,0 +1,50 @@
+:root {
+  /* --color-bg: #8f8f8f;
+  --color-bg-secondary: #FFFFFF;
+  --color-text: #000000; */
+  --box-shadow-button: 1px 1px 3px #888888;
+  --box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --border-radius: 0.35rem;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+  --color-bg: #FAFAFA;
+  --color-bg-secondary: #FFFFFF;
+  --color-text: #000000;
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+body.dark-mode{
+  --color-bg: #212E37;
+  --color-bg-secondary: #2B3743;
+  --color-text: #FFFFFF;
+  --box-shadow-button:  0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px 1px rgb(0 0 0 / 0.1); 
+}
+
+
+/* clases generales */
+
+/* Margenes */
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* img */
+
+.img-fluid{
+  width: 100%;
+}
+
